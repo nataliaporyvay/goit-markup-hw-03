@@ -1,0 +1,253 @@
+
+body {
+    font-family:'Roboto',sans-serif;
+    color: #434455;
+    background-color: #fff;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.header-logo .logo-part {
+    color:#2e2f42;
+}
+
+.header-logo{
+    margin-right: 76px;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf;
+}
+
+
+/* Hero */
+.hero {
+    background-color: #2e2f42;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        margin: 0 auto 48px;
+        letter-spacing: 0.02em;
+}
+
+.hero-button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+
+}
+
+.hero-button:hover ,
+.hero-button:focus {
+    background-color: #404bbf;
+}
+
+/* Features */
+.features-heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.feature-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+
+/* Team Section */
+.team {
+    background-color: #f4f4fd;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin: 0 auto 72px;
+}
+
+/* List */
+.team-list {
+    margin: 0;
+    list-style: none;
+}
+.team-member h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.team-member p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #434455;
+}
+/* Card */
+.team-member {
+    background-color: #ffffff;
+}
+
+
+/* Name */
+.team-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #2e2f42;
+    margin: 32px 0 8px;
+    letter-spacing: 0.02em;
+}
+
+/* Role */
+.team-role {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434455;
+    margin: 0;
+}
+
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-list {
+    list-style: none;
+    margin: 0;
+}
+
+.portfolio-item img {
+    border: 1px solid #e7e9fc;
+}
+
+
+
+.portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+/* Footer */
+.footer {
+    font-family: "Raleway", sans-serif;
+    background-color: #2e2f42;
+    color: #f4f4fd;
+}
+
+.footer-container {
+    margin: 0 auto;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #4d5ae5;
+    line-height: 1.17;
+}
+
+.footer-logo-accent {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    max-width: 264px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f4f4fd;
+    font-weight: 400;
+}
