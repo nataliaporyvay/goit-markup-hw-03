@@ -110,6 +110,10 @@ h1, h2, h3, h4, h5, h6, p{
 
 
 /* Hero */
+.section{
+    padding: 188px 0;
+}
+
 .hero {
     background-color: #2e2f42;
     color: #ffffff;
@@ -117,22 +121,33 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .hero-title {
+    max-width: 496px;
+    font-weight: 700;
     font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
         margin: 0 auto 48px;
         letter-spacing: 0.02em;
+        margin: 0 auto 48px;
+        text-align: center;
 }
 
 .hero-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: var(--accent-color,#4d5ae5 ) ;
+    border-radius: 4px;
+    cursor: pointer;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     color: #ffffff;
-    background-color: #4d5ae5;
     border: none;
     cursor: pointer;
     letter-spacing: 0.04em;
+    margin: 0 auto;
 
 }
 
